@@ -1,0 +1,26 @@
+.container {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.handle {
+  vertical-align: top;
+  margin-left: 15px;
+  width: 300px;
+  display: inline-block;
+}
+
+.username {
+  font-weight: bold;
+}

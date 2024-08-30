@@ -1,0 +1,13 @@
+p {
+  color: red;
+}
+
+.x {
+  color: gold;
+}
+
+div {
+  width: 500px;
+  height: 300px;
+  background: radial-gradient(circle, dodgerblue, gold, red);
+}

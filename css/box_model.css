@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+.box {
+  width: 50rem;
+  height: 50vh;
+  background-color: dodgerblue;
+}
+
+.box::before {
+  content: "Hello";
+  display: block;
+  width: 100px;
+  height: 100px;
+}

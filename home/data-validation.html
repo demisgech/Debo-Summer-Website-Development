@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Validation</title>
+    <link rel="stylesheet" href="../milligram/dist/milligram.css" />
+    <style>
+        form {
+            border: 1px solid #6ea2e3;
+            border-radius: 10px;
+            padding: 1rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="http://127.0.0.1:5500/home/buildingForm.html" method="get">
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" placeholder="name@gmail.com">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="Password" id="password" placeholder="name@gmail.com">
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

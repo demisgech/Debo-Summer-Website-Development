@@ -1,0 +1,28 @@
+img {
+  width: 200px;
+  /* clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  ); */
+}
+
+img:hover {
+  /* filter: grayscale(70%); */
+  /* filter: contrast(80%); */
+  /* filter: brightness(90%); */
+  filter: saturate(20%);
+}
+
+body {
+  /* background: url(../images/img/beautiful-shot-mountains.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50vw 50vh; */
+  background-attachment: fixed;
+  /* height: 300vh; */
+}

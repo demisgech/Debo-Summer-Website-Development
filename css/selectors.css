@@ -1,0 +1,67 @@
+/* Type selector */
+/* body {
+  background-color: black;
+} */
+
+/* Id selector */
+#product {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+}
+
+/* Class selector */
+.items {
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+}
+
+.products {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin-top: 10px;
+}
+
+/* a[target="_blank"] {
+  color: dodgerblue;
+  text-decoration: none;
+} */
+
+a[href^="https"][href$=".com"] {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blog-post {
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 4px 4px 10px grey;
+}
+
+.post {
+  border: 3px solid red;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px blue;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.blue {
+  background-color: dodgerblue;
+  color: white;
+}

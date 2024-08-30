@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid dodgerblue;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        tfoot {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <th>Items</th>
+                <th>price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sugar</td>
+                <td>Birr 120</td>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td>Birr 130</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th> 250</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

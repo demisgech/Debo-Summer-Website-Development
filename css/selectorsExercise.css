@@ -1,0 +1,30 @@
+.blog-post {
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.post {
+  border: 3px solid red;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  box-shadow: 2px 2px 10px blue;
+  display: inline-block;
+  width: 180px;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: dodgerblue;
+}

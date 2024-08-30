@@ -1,0 +1,30 @@
+.container {
+  border: 3px solid grey;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  /* flex-basis: 15rem; */
+  width: 5rem;
+  height: 5rem;
+  background-color: dodgerblue;
+  margin: 1rem;
+}
+.box-three {
+  flex-grow: 0;
+}
+
+.box-two {
+  flex-grow: 0;
+}
+.box-one {
+  /* flex-shrink: 0; */
+  flex-grow: 2;
+  /* flex-basis: 15rem; */
+  /* align-self: flex-end; */
+}

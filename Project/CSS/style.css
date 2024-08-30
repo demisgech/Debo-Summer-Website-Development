@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: rgb(8, 8, 24);
+  border-bottom: 1px solid #ccc;
+}
+.list-group {
+  list-style-type: none;
+}
+
+.nav-bar .list-group-item {
+  padding: 5px;
+  width: 100px;
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: center;
+  color: #ccc;
+  text-align: center;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #ccc;
+}
+.nav-bar a:hover {
+  color: rgb(136, 142, 154);
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  color: rgb(136, 142, 154);
+}
+
+.hero {
+  padding: 10px;
+  background-color: rgb(20, 20, 30);
+  color: #ccc;
+}
+
+.hero img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.text-content {
+  display: inline-block;
+  max-width: 400px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.heading {
+  font-size: 40px;
+}
+.text-body p {
+  font-size: 16px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  text-decoration: none;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.hero a:hover,
+.hero a:focus {
+  background-color: green;
+}
+
+.features {
+  padding: 50px 10px;
+}
+.blog-post {
+  display: inline-block;
+  max-width: 220px;
+  padding: 10px;
+  vertical-align: top;
+
+  border-radius: 10px;
+  margin-left: 30px;
+  max-height: 220px;
+  min-height: 140px;
+  padding: 15px;
+  color: #ccc;
+  box-shadow: 4px 4px 15px rgb(28, 27, 27);
+}
+.green {
+  background-color: rgb(28, 67, 28);
+}
+
+.blue {
+  background-color: rgb(21, 45, 68);
+}
+
+.pink {
+  background-color: rgb(54, 19, 62);
+}
+
+.blog-post:hover {
+  border: 1px solid dodgerblue;
+  background-color: white;
+  color: #444;
+  font-style: italic;
+}
+
+.section-footer {
+  padding-top: 20px;
+  background-color: rgb(20, 20, 30);
+  color: #ccc;
+}
+
+.section a {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ccc;
+}
+.section-footer a:focus {
+  color: dodgerblue;
+}
+
+.section-footer a:hover {
+  color: dodgerblue;
+}
+
+.section {
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.section .list-group {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.section .list-group-item {
+  text-align: left;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.footer-heading h2 {
+  border-top: 2px solid #444;
+  margin: 30px auto 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}

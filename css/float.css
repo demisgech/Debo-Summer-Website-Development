@@ -1,0 +1,30 @@
+.avator {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 1rem;
+}
+.tweet {
+  border: 3px solid grey;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.video {
+  border: 3px solid blue;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  background-color: dodgerblue;
+  float: left;
+}

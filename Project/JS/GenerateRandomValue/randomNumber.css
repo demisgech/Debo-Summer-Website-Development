@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(8, 3, 22);
+  color: #fff;
+}
+h1 {
+  font-size: 3.2rem;
+}
+span {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0.7rem;
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(138, 16, 138);
+  color: white;
+}
+span,
+button {
+  font-size: 1.6rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid green;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgb(69, 150, 69);
+}
+.btn {
+  outline: none;
+  border: 0;
+  padding: 0.51rem 0.7rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #222;
+}
+.btn-primary {
+  background-color: rgb(10, 76, 142);
+  color: #ccc;
+}

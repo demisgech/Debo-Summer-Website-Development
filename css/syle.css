@@ -1,0 +1,21 @@
+.header {
+  color: dodgerblue;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: -10px 10px 10px rgb(238, 204, 204);
+  width: 200px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+p.footer {
+  color: green;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  width: 300px;
+  margin-left: 30px;
+  vertical-align: top;
+}

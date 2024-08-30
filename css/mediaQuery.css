@@ -1,0 +1,62 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: gold;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box:nth-of-type(2) {
+  background-color: dodgerblue;
+}
+
+.box p {
+  font-size: 1.8rem;
+  color: #444;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+  .box {
+    background-color: violet;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .box p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row-reverse;
+  }
+
+  .box {
+    background-color: violet;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .box p {
+    font-size: 1.5rem;
+  }
+}
+
+@media print {
+  .text-container {
+    padding: 1.2cm;
+    font-size: 20px;
+  }
+}

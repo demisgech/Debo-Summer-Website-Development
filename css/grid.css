@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  /* grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px; */
+  grid-template: 50px 90fr 20fr / 100px 100fr;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  /* border: 3px solid grey; */
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  gap: 10px;
+  height: 90vh;
+}
+
+.box {
+  /* width: 5rem; */
+  /* height: 5rem; */
+  background-color: dodgerblue;
+}
+
+.box-one {
+  grid-area: header;
+  border-radius: 10px;
+  background-color: rgb(3, 11, 19);
+}
+.box-two {
+  grid-area: sidebar;
+  border-radius: 10px;
+  background-color: tomato;
+}
+
+.box-three {
+  grid-area: main;
+  border-radius: 20px;
+}
+
+.box-four {
+  border-radius: 10px;
+  background-color: rgb(3, 11, 19);
+  grid-area: footer;
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: rgb(7, 7, 16);
+  color: #ccc;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.list-group {
+  list-style: none;
+}
+
+.list-group .list-group-item {
+  display: inline-block;
+  width: 90px;
+  margin-left: 20px;
+}
+
+.list-group-item:hover {
+  color: #887f7f;
+  cursor: pointer;
+}
+
+.hero {
+  margin: 0;
+  padding: 30px;
+  background-color: rgb(24, 26, 33);
+  color: #ccc;
+}
+.nav-bar a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: #887f7f;
+}
+.hero img {
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.hero-text {
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #ccc;
+  margin-left: 100px;
+}
+
+.hero a:hover {
+  background-color: green;
+}
+
+.post {
+  display: inline-block;
+  max-width: 250px;
+  margin-left: 50px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 2px 2px 20px black;
+}
+
+.green {
+  background-color: rgb(7, 45, 7);
+}
+
+.blue {
+  background-color: rgb(22, 28, 88);
+}
+
+.brown {
+  background-color: rgb(43, 16, 61);
+}
+
+.blog-post {
+  padding: 50px 10px;
+}
+
+.post:hover {
+  background-color: white;
+  color: #444;
+  border: 1px solid dodgerblue;
+  font-style: italic;
+}
+
+.footer-bar {
+  display: inline-block;
+  max-width: 150px;
+  margin-left: 70px;
+}
+
+.footer-bar ul {
+  list-style: none;
+}
+.footer-bar h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.footer-bar li {
+  padding: 5px;
+}
+
+.footer-bar a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-bar a:hover {
+  color: dodgerblue;
+}
+
+.section-footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-bar li:hover {
+  color: #887f7f;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer h2 {
+  font-style: italic;
+}

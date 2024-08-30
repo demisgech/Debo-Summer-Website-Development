@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="outer-container">
+    <h2>Calculator</h2>
+    <div class="container">
+      <div class="display">
+        <div data-previous-operand class="history"></div>
+        <div data-current-operand class="history"></div>
+      </div>
+      <div class="btn-container">
+        <button data-all-clear class="btn del">AC</button>
+        <button data-delete class="btn">❌</button>
+        <button data-operator class="btn operator" value="/">/</button>
+        <button data-number class="btn number" value="1">1</button>
+        <button data-number class="btn number" value="2">2</button><button data-number class="btn number"
+          value="3">3</button>
+        <button data-operator class="btn operator" value="+">+</button><button data-number class="btn number"
+          value="4">4</button>
+        <button data-number class="btn number" value="5">5</button><button data-number class="btn"
+          value="6 number">6</button>
+        <button data-operator class="btn operator" value="-">-</button><button data-number class="btn number"
+          value="7">7</button>
+        <button data-number class="btn number" value="8">8</button><button data-number class="btn number"
+          value="9">9</button>
+        <button data-operator class="btn operator" value="*">*</button><button data-number class="btn"
+          value=".">.</button>
+        <button data-number class="btn number" value="0">0</button><button data-equals class="btn equal">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

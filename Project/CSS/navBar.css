@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 200vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h2 {
+  margin-left: 1rem;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item {
+  padding: 1rem;
+}
+
+.navbar .list-item:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+}

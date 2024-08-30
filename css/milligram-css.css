@@ -1,0 +1,16 @@
+.btn-primary {
+  background-color: dodgerblue;
+  border: 0;
+}
+
+@media screen and (min-width: 40rem) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  form {
+    width: 50%;
+  }
+}
