@@ -1,0 +1,46 @@
+.progress {
+  width: 100%;
+  background-color: #aeabab;
+  border-radius: 16px;
+}
+
+.progress__bar {
+  width: 10%;
+  height: 30px;
+  background-color: rgb(49, 85, 214);
+  border-radius: 22px;
+  color: #fff;
+  text-align: right;
+  line-height: 1.5;
+  transition: width 0.3s;
+}
+
+.btn--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.btn {
+  padding: 0.5rem 0.7rem;
+  border: 0;
+  border-radius: 7px;
+  outline: none;
+}
+
+.btn,
+.progress--value {
+  background-color: rgb(210, 13, 210);
+  color: white;
+}
+.progress--value {
+  border-radius: 100%;
+  padding: 0.8rem 0.2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(87, 82, 82);
+  cursor: pointer;
+}
