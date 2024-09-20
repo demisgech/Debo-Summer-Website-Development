@@ -1,0 +1,25 @@
+@import url(./variables.css);
+
+.box-one {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-primary);
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.box-two {
+  width: 100px;
+  height: 100px;
+  background: var(--color-primary);
+  border-radius: var(--border-radius);
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background: var(--color-primary);
+  color: var(--color);
+  border-radius: var(--border-radius);
+}

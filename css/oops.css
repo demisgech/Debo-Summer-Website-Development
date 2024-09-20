@@ -1,0 +1,22 @@
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1.7rem;
+}
+
+.btn-primary {
+  background: rgb(128, 111, 0);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: dodgerblue;
+  color: #fff;
+}
+
+.btn-accent {
+  background: rgb(178, 86, 86);
+  color: #fff;
+}

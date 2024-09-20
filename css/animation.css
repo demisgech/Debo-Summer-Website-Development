@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  box-shadow: 0 0 10px 3px grey;
+  width: 100px;
+  background-color: gold;
+  padding: 1rem;
+}
+/* kbab-case */
+/* camelCase */
+/* PascalCase */
+/* snake_case */
+
+.animation-move {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  /* animation: move 5s ease-out 0.5s infinite normal; */
+}
+@keyframes move {
+  0% {
+    transform: scale(1.5);
+  }
+
+  25% {
+    transform: rotate(25deg);
+    background: dodgerblue;
+  }
+
+  50% {
+    transform: skew(-30deg);
+    background: tomato;
+    border-radius: 20px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

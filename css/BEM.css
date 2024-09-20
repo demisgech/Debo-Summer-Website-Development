@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.card {
+  border-radius: 1px solid green;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.card__header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  height: 100px;
+  background: dodgerblue;
+  padding: 1rem;
+}
+
+.card__body {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: gold;
+  width: 100%;
+  height: 100px;
+}
+
+.badge {
+  border: 0;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 0.5rem 0.7rem;
+}
+
+.badge--primary {
+  background: rgb(29, 29, 168);
+  color: white;
+}
+
+.card--popular .header {
+  background: green;
+}
+
+/* BEM = Block Element Modifier */
