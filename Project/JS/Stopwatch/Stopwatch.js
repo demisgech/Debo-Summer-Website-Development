@@ -21,19 +21,19 @@ export class Stopwatch {
   click() {
     Stopwatch.#startStopBtn.addEventListener("click", () => {
       if (!Stopwatch.#isRunning) {
-        Stopwatch.#interval = setInterval(Stopwatch.start, 1000);
+        Stopwatch.#interval = setInterval(Stopwatch.#start, 1000);
         Stopwatch.#isRunning = true;
       } else {
-        Stopwatch.stop();
+        Stopwatch.#stop();
       }
     });
 
     Stopwatch.#resetBtn.addEventListener("click", () => {
-      Stopwatch.reset();
+      Stopwatch.#reset();
     });
   }
 
-  static start() {
+  static #start() {
     let leadingSeconds = 0;
     let leadingMinutes = 0;
     let leadingHours = 0;
@@ -65,7 +65,7 @@ export class Stopwatch {
     Stopwatch.#startStopBtn.classList.add("btn--stop");
     Stopwatch.#startStopBtn.textContent = "Pause";
   }
-  static stop() {
+  static #stop() {
     if (Stopwatch.#startStopBtn.classList.contains("btn--stop"))
       Stopwatch.#startStopBtn.classList.remove("btn--stop");
     Stopwatch.#startStopBtn.classList.add("btn--start");
@@ -74,7 +74,7 @@ export class Stopwatch {
     Stopwatch.#isRunning = false;
   }
 
-  static reset() {
+  static #reset() {
     clearInterval(Stopwatch.#interval);
     Stopwatch.#seconds = 0;
     Stopwatch.#minutes = 0;
